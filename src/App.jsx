@@ -1,11 +1,15 @@
 import './App.css'
+import Home from './pages/Home.jsx';
 
 function App() {
   
 
   return (
     <>
-      <button className="btn btn-primary">Button</button>
+      <div className='text-black'>
+        <Home />
+        
+      </div>
     </>
   );
 }
